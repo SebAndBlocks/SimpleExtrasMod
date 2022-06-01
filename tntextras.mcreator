@@ -103,6 +103,42 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "vother"
+    },
+    {
+      "name": "RedBallonLevitationTrick",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_ballon_levitation_trick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RedBallon",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "red_ballon"
     }
   ],
   "variable_elements": [],
@@ -113,7 +149,8 @@
       "item.tntextras.gold_coin": "Gold Coin",
       "item.tntextras.silver_coin": "Silver Coin",
       "item.tntextras.cola": "Cola",
-      "itemGroup.tabsimple_extras": "Simple Extras"
+      "itemGroup.tabsimple_extras": "Simple Extras",
+      "item.tntextras.red_ballon": "Red Ballon"
     }
   },
   "foldersRoot": {
