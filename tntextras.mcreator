@@ -203,6 +203,14 @@
           }
         ]
       }
+    },
+    {
+      "name": "WhatIsKL",
+      "type": "command",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "what_is_kl"
     }
   ],
   "variable_elements": [],
