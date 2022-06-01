@@ -5,10 +5,10 @@
     "renderType": 0,
     "texture": "baloon",
     "customModelName": "Normal",
-    "name": "Red Ballon",
+    "name": "Red Balloon",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:SimpleExtras"
     },
     "stackSize": 64,
     "enchantability": 0,

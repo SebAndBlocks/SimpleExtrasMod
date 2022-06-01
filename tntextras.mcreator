@@ -139,6 +139,70 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "red_ballon"
+    },
+    {
+      "name": "KL1",
+      "type": "villagertrade",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kl_1"
+    },
+    {
+      "name": "KL2",
+      "type": "villagertrade",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kl_2"
+    },
+    {
+      "name": "KL3",
+      "type": "villagertrade",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kl_3"
+    },
+    {
+      "name": "KL4",
+      "type": "villagertrade",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "kl_4"
+    },
+    {
+      "name": "SimpleExtrasModCommand",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "simple_extras_mod_command",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WhatIsKLCommandExecuted",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "what_is_kl_command_executed",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -150,7 +214,7 @@
       "item.tntextras.silver_coin": "Silver Coin",
       "item.tntextras.cola": "Cola",
       "itemGroup.tabsimple_extras": "Simple Extras",
-      "item.tntextras.red_ballon": "Red Ballon"
+      "item.tntextras.red_ballon": "Red Balloon"
     }
   },
   "foldersRoot": {

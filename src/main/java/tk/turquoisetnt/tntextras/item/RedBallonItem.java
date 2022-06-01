@@ -2,18 +2,18 @@
 package tk.turquoisetnt.tntextras.item;
 
 import tk.turquoisetnt.tntextras.procedures.RedBallonLevitationTrickProcedure;
+import tk.turquoisetnt.tntextras.init.TntextrasModTabs;
 
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.UseAnim;
 import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.entity.Entity;
 
 public class RedBallonItem extends Item {
 	public RedBallonItem() {
-		super(new Item.Properties().tab(CreativeModeTab.TAB_MISC).stacksTo(64).rarity(Rarity.COMMON));
+		super(new Item.Properties().tab(TntextrasModTabs.TAB_SIMPLE_EXTRAS).stacksTo(64).rarity(Rarity.COMMON));
 	}
 
 	@Override

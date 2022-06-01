@@ -34,11 +34,85 @@ public class TntextrasModTrades {
 					new ItemStack(TntextrasModItems.GOLD_COIN.get(), 3), new ItemStack(Items.EMERALD, 2), 10, 5, 0.05f));
 		}
 		if (event.getType() == VillagerProfession.BUTCHER) {
-			trades.get(1).add(new BasicItemListing(new ItemStack(TntextrasModItems.GOLD_COIN.get(), 5),
+			trades.get(1).add(new BasicItemListing(new ItemStack(TntextrasModItems.GOLD_COIN.get(), 4),
 
 					new ItemStack(TntextrasModItems.COLA.get()), 10, 5, 0.05f));
 			trades.get(1).add(new BasicItemListing(new ItemStack(TntextrasModItems.COLA.get()), new ItemStack(TntextrasModItems.SILVER_COIN.get(), 2),
 					new ItemStack(TntextrasModItems.COLA.get()), 10, 5, 0.05f));
+			trades.get(1).add(new BasicItemListing(new ItemStack(TntextrasModItems.GOLD_COIN.get(), 6),
+
+					new ItemStack(TntextrasModItems.RED_BALLON.get()), 10, 5, 0.05f));
+			trades.get(1).add(new BasicItemListing(new ItemStack(TntextrasModItems.SILVER_COIN.get(), 16),
+
+					new ItemStack(TntextrasModItems.RED_BALLON.get()), 10, 5, 0.05f));
+		}
+		if (event.getType() == VillagerProfession.ARMORER) {
+			trades.get(1).add(new BasicItemListing(new ItemStack(TntextrasModItems.EMPTY_COLA_CAN.get(), 5),
+
+					new ItemStack(TntextrasModItems.RED_BALLON.get()), 10, 5, 0.05f));
+			trades.get(1).add(new BasicItemListing(new ItemStack(TntextrasModItems.EMPTY_COLA_CAN.get(), 5),
+
+					new ItemStack(TntextrasModItems.RED_BALLON.get()), 10, 5, 0.05f));
+			trades.get(1).add(new BasicItemListing(new ItemStack(TntextrasModItems.EMPTY_COLA_CAN.get(), 5),
+
+					new ItemStack(TntextrasModItems.RED_BALLON.get()), 10, 5, 0.05f));
+			trades.get(1).add(new BasicItemListing(new ItemStack(TntextrasModItems.EMPTY_COLA_CAN.get(), 5),
+
+					new ItemStack(TntextrasModItems.RED_BALLON.get()), 10, 5, 0.05f));
+			trades.get(1).add(new BasicItemListing(new ItemStack(TntextrasModItems.EMPTY_COLA_CAN.get(), 5),
+
+					new ItemStack(TntextrasModItems.RED_BALLON.get()), 10, 5, 0.05f));
+		}
+		if (event.getType() == VillagerProfession.LEATHERWORKER) {
+			trades.get(1).add(new BasicItemListing(new ItemStack(TntextrasModItems.EMPTY_COLA_CAN.get(), 5),
+
+					new ItemStack(TntextrasModItems.RED_BALLON.get()), 10, 5, 0.05f));
+			trades.get(1).add(new BasicItemListing(new ItemStack(TntextrasModItems.EMPTY_COLA_CAN.get(), 5),
+
+					new ItemStack(TntextrasModItems.RED_BALLON.get()), 10, 5, 0.05f));
+			trades.get(1).add(new BasicItemListing(new ItemStack(TntextrasModItems.EMPTY_COLA_CAN.get(), 5),
+
+					new ItemStack(TntextrasModItems.RED_BALLON.get()), 10, 5, 0.05f));
+			trades.get(1).add(new BasicItemListing(new ItemStack(TntextrasModItems.EMPTY_COLA_CAN.get(), 5),
+
+					new ItemStack(TntextrasModItems.RED_BALLON.get()), 10, 5, 0.05f));
+			trades.get(1).add(new BasicItemListing(new ItemStack(TntextrasModItems.EMPTY_COLA_CAN.get(), 5),
+
+					new ItemStack(TntextrasModItems.RED_BALLON.get()), 10, 5, 0.05f));
+		}
+		if (event.getType() == VillagerProfession.TOOLSMITH) {
+			trades.get(1).add(new BasicItemListing(new ItemStack(TntextrasModItems.EMPTY_COLA_CAN.get(), 5),
+
+					new ItemStack(TntextrasModItems.RED_BALLON.get()), 10, 5, 0.05f));
+			trades.get(1).add(new BasicItemListing(new ItemStack(TntextrasModItems.EMPTY_COLA_CAN.get(), 5),
+
+					new ItemStack(TntextrasModItems.RED_BALLON.get()), 10, 5, 0.05f));
+			trades.get(1).add(new BasicItemListing(new ItemStack(TntextrasModItems.EMPTY_COLA_CAN.get(), 5),
+
+					new ItemStack(TntextrasModItems.RED_BALLON.get()), 10, 5, 0.05f));
+			trades.get(1).add(new BasicItemListing(new ItemStack(TntextrasModItems.EMPTY_COLA_CAN.get(), 5),
+
+					new ItemStack(TntextrasModItems.RED_BALLON.get()), 10, 5, 0.05f));
+			trades.get(1).add(new BasicItemListing(new ItemStack(TntextrasModItems.EMPTY_COLA_CAN.get(), 5),
+
+					new ItemStack(TntextrasModItems.RED_BALLON.get()), 10, 5, 0.05f));
+		}
+		if (event.getType() == VillagerProfession.MASON) {
+			trades.get(1).add(new BasicItemListing(new ItemStack(TntextrasModItems.EMPTY_COLA_CAN.get(), 5),
+
+					new ItemStack(TntextrasModItems.RED_BALLON.get()), 10, 5, 0.05f));
+			trades.get(1).add(new BasicItemListing(new ItemStack(TntextrasModItems.EMPTY_COLA_CAN.get(), 5),
+
+					new ItemStack(TntextrasModItems.RED_BALLON.get()), 10, 5, 0.05f));
+			trades.get(1).add(new BasicItemListing(new ItemStack(TntextrasModItems.EMPTY_COLA_CAN.get(), 5),
+
+					new ItemStack(TntextrasModItems.RED_BALLON.get()), 10, 5, 0.05f));
+			trades.get(1).add(new BasicItemListing(new ItemStack(TntextrasModItems.EMPTY_COLA_CAN.get(), 5),
+
+					new ItemStack(TntextrasModItems.RED_BALLON.get()), 10, 5, 0.05f));
+			trades.get(1).add(new BasicItemListing(new ItemStack(TntextrasModItems.EMPTY_COLA_CAN.get(), 5),
+
+					new ItemStack(TntextrasModItems.RED_BALLON.get()), 10, 5, 0.05f));
 		}
 	}
 }
