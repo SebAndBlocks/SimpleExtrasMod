@@ -1,0 +1,46 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:SilverCoin"
+      },
+      {
+        "value": "CUSTOM:SilverCoin"
+      },
+      {
+        "value": "CUSTOM:SilverCoin"
+      },
+      {
+        "value": "CUSTOM:SilverCoin"
+      },
+      {
+        "value": "CUSTOM:SilverCoin"
+      },
+      {
+        "value": "CUSTOM:SilverCoin"
+      },
+      {
+        "value": "CUSTOM:SilverCoin"
+      },
+      {
+        "value": "CUSTOM:SilverCoin"
+      },
+      {
+        "value": "CUSTOM:SilverCoin"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:GoldCoin"
+    },
+    "name": "silver_to_gold",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tntextras:silver_coin"
+    },
+    {
+      "item": "tntextras:silver_coin"
+    },
+    {
+      "item": "tntextras:silver_coin"
+    },
+    {
+      "item": "tntextras:silver_coin"
+    },
+    {
+      "item": "tntextras:silver_coin"
+    },
+    {
+      "item": "tntextras:silver_coin"
+    },
+    {
+      "item": "tntextras:silver_coin"
+    },
+    {
+      "item": "tntextras:silver_coin"
+    },
+    {
+      "item": "tntextras:silver_coin"
+    }
+  ],
+  "result": {
+    "item": "tntextras:gold_coin",
+    "count": 1
+  }
+}

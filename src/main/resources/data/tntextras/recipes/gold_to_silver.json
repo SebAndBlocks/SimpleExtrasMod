@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tntextras:gold_coin"
+    }
+  ],
+  "result": {
+    "item": "tntextras:silver_coin",
+    "count": 9
+  }
+}

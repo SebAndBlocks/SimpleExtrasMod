@@ -1,0 +1,11 @@
+{
+  "_fv": 28,
+  "_type": "tab",
+  "definition": {
+    "name": "Simple Extras",
+    "icon": {
+      "value": "Items.CARROT_ON_A_STICK"
+    },
+    "showSearch": true
+  }
+}

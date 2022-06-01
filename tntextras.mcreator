@@ -1,0 +1,141 @@
+{
+  "mod_elements": [
+    {
+      "name": "SimpleExtras",
+      "type": "tab",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "simple_extras"
+    },
+    {
+      "name": "GoldCoin",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_coin"
+    },
+    {
+      "name": "SilverCoin",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_coin"
+    },
+    {
+      "name": "SilverToGold",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_to_gold"
+    },
+    {
+      "name": "GoldToSilver",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_to_silver"
+    },
+    {
+      "name": "GoldToCoin",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_to_coin"
+    },
+    {
+      "name": "SilverToCoin",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_to_coin"
+    },
+    {
+      "name": "CoinToSilver",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coin_to_silver"
+    },
+    {
+      "name": "CoinToGold",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "coin_to_gold"
+    },
+    {
+      "name": "VCOINS",
+      "type": "villagertrade",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vcoins"
+    },
+    {
+      "name": "Cola",
+      "type": "item",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cola"
+    },
+    {
+      "name": "EmptyColaCan",
+      "type": "item",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "empty_cola_can"
+    },
+    {
+      "name": "VOTHER",
+      "type": "villagertrade",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "vother"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.tntextras.empty_cola_can": "Empty Cola Can",
+      "item.tntextras.gold_coin": "Gold Coin",
+      "item.tntextras.silver_coin": "Silver Coin",
+      "item.tntextras.cola": "Cola",
+      "itemGroup.tabsimple_extras": "Simple Extras"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "tntextras",
+    "modName": "Simple Extras",
+    "version": "1.0.0",
+    "author": "sebas, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "modElementsPackage": "tk.turquoisetnt.tntextras",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200120510
+}
