@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "tntextras:rubber"
+    },
+    "1": {
+      "item": "tntextras:rubber"
+    },
+    "2": {
+      "item": "tntextras:rubber"
+    },
+    "3": {
+      "item": "tntextras:rubber"
+    },
+    "4": {
+      "item": "tntextras:rubber"
+    },
+    "5": {
+      "item": "tntextras:rubber"
+    },
+    "6": {
+      "item": "tntextras:rubber"
+    },
+    "7": {
+      "item": "tntextras:rubber"
+    },
+    "8": {
+      "item": "tntextras:rubber"
+    }
+  },
+  "result": {
+    "item": "tntextras:bouncy_ball",
+    "count": 1
+  }
+}

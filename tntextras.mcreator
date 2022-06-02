@@ -211,6 +211,62 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "what_is_kl"
+    },
+    {
+      "name": "WhatIsAbout",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "what_is_about",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WhatIsMod",
+      "type": "command",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "what_is_mod"
+    },
+    {
+      "name": "Rubber",
+      "type": "item",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rubber"
+    },
+    {
+      "name": "BouncyBall",
+      "type": "item",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bouncy_ball"
+    },
+    {
+      "name": "BouncyBallRubber",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bouncy_ball_rubber"
+    },
+    {
+      "name": "BalloonBouncyBall",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "balloon_bouncy_ball"
     }
   ],
   "variable_elements": [],
@@ -221,6 +277,8 @@
       "item.tntextras.gold_coin": "Gold Coin",
       "item.tntextras.silver_coin": "Silver Coin",
       "item.tntextras.cola": "Cola",
+      "item.tntextras.rubber": "Rubber Patch",
+      "item.tntextras.bouncy_ball": "Bouncy Ball",
       "itemGroup.tabsimple_extras": "Simple Extras",
       "item.tntextras.red_ballon": "Red Balloon"
     }

@@ -5,10 +5,12 @@
 package tk.turquoisetnt.tntextras.init;
 
 import tk.turquoisetnt.tntextras.item.SilverCoinItem;
+import tk.turquoisetnt.tntextras.item.RubberItem;
 import tk.turquoisetnt.tntextras.item.RedBallonItem;
 import tk.turquoisetnt.tntextras.item.GoldCoinItem;
 import tk.turquoisetnt.tntextras.item.EmptyColaCanItem;
 import tk.turquoisetnt.tntextras.item.ColaItem;
+import tk.turquoisetnt.tntextras.item.BouncyBallItem;
 import tk.turquoisetnt.tntextras.TntextrasMod;
 
 import net.minecraftforge.registries.RegistryObject;
@@ -24,4 +26,6 @@ public class TntextrasModItems {
 	public static final RegistryObject<Item> COLA = REGISTRY.register("cola", () -> new ColaItem());
 	public static final RegistryObject<Item> EMPTY_COLA_CAN = REGISTRY.register("empty_cola_can", () -> new EmptyColaCanItem());
 	public static final RegistryObject<Item> RED_BALLON = REGISTRY.register("red_ballon", () -> new RedBallonItem());
+	public static final RegistryObject<Item> RUBBER = REGISTRY.register("rubber", () -> new RubberItem());
+	public static final RegistryObject<Item> BOUNCY_BALL = REGISTRY.register("bouncy_ball", () -> new BouncyBallItem());
 }
