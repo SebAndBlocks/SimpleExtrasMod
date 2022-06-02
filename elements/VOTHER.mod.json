@@ -28,7 +28,7 @@
           },
           {
             "price1": {
-              "value": "CUSTOM:Cola"
+              "value": "CUSTOM:EmptyColaCan"
             },
             "countPrice1": 1,
             "price2": {
@@ -73,6 +73,42 @@
             "countPrice2": 1,
             "offer": {
               "value": "CUSTOM:RedBallon"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:GoldCoin"
+            },
+            "countPrice1": 2,
+            "price2": {
+              "value": ""
+            },
+            "countPrice2": 1,
+            "offer": {
+              "value": "CUSTOM:Rubber"
+            },
+            "countOffer": 3,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:GoldCoin"
+            },
+            "countPrice1": 5,
+            "price2": {
+              "value": "CUSTOM:SilverCoin"
+            },
+            "countPrice2": 3,
+            "offer": {
+              "value": "CUSTOM:BouncyBall"
             },
             "countOffer": 1,
             "level": 1,
