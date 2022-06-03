@@ -323,6 +323,34 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "old_craft_tv"
+    },
+    {
+      "name": "BouncyBallItemInHandTick",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bouncy_ball_item_in_hand_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
