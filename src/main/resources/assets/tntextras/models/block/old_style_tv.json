@@ -1,0 +1,9 @@
+{
+  "parent": "tntextras:custom/oldtv",
+  "textures": {
+    "all": "tntextras:blocks/tv_menu",
+    "particle": "tntextras:blocks/tv_menu",
+    "0": "tntextras:blocks/tvmain",
+    "1": "tntextras:blocks/leg"
+  }
+}

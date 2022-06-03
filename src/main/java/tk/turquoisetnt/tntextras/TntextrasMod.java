@@ -15,6 +15,7 @@ package tk.turquoisetnt.tntextras;
 
 import tk.turquoisetnt.tntextras.init.TntextrasModTabs;
 import tk.turquoisetnt.tntextras.init.TntextrasModItems;
+import tk.turquoisetnt.tntextras.init.TntextrasModBlocks;
 
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
@@ -45,7 +46,7 @@ public class TntextrasMod {
 	public TntextrasMod() {
 		TntextrasModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
-
+		TntextrasModBlocks.REGISTRY.register(bus);
 		TntextrasModItems.REGISTRY.register(bus);
 
 	}

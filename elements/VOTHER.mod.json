@@ -5,7 +5,7 @@
     "tradeEntries": [
       {
         "villagerProfession": {
-          "value": "BUTCHER"
+          "value": "CARTOGRAPHER"
         },
         "entries": [
           {
@@ -109,6 +109,24 @@
             "countPrice2": 3,
             "offer": {
               "value": "CUSTOM:BouncyBall"
+            },
+            "countOffer": 1,
+            "level": 1,
+            "maxTrades": 10,
+            "xp": 5,
+            "priceMultiplier": 0.05
+          },
+          {
+            "price1": {
+              "value": "CUSTOM:GoldCoin"
+            },
+            "countPrice1": 28,
+            "price2": {
+              "value": "CUSTOM:SilverCoin"
+            },
+            "countPrice2": 15,
+            "offer": {
+              "value": "CUSTOM:OldStyleTV"
             },
             "countOffer": 1,
             "level": 1,

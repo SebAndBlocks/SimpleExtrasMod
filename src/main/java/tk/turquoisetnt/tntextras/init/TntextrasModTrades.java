@@ -33,7 +33,7 @@ public class TntextrasModTrades {
 			trades.get(1).add(new BasicItemListing(new ItemStack(TntextrasModItems.SILVER_COIN.get(), 13),
 					new ItemStack(TntextrasModItems.GOLD_COIN.get(), 3), new ItemStack(Items.EMERALD, 2), 10, 5, 0.05f));
 		}
-		if (event.getType() == VillagerProfession.BUTCHER) {
+		if (event.getType() == VillagerProfession.CARTOGRAPHER) {
 			trades.get(1).add(new BasicItemListing(new ItemStack(TntextrasModItems.GOLD_COIN.get(), 4),
 
 					new ItemStack(TntextrasModItems.COLA.get()), 10, 5, 0.05f));
@@ -50,6 +50,8 @@ public class TntextrasModTrades {
 					new ItemStack(TntextrasModItems.RUBBER.get(), 3), 10, 5, 0.05f));
 			trades.get(1).add(new BasicItemListing(new ItemStack(TntextrasModItems.GOLD_COIN.get(), 5),
 					new ItemStack(TntextrasModItems.SILVER_COIN.get(), 3), new ItemStack(TntextrasModItems.BOUNCY_BALL.get()), 10, 5, 0.05f));
+			trades.get(1).add(new BasicItemListing(new ItemStack(TntextrasModItems.GOLD_COIN.get(), 28),
+					new ItemStack(TntextrasModItems.SILVER_COIN.get(), 15), new ItemStack(TntextrasModBlocks.OLD_STYLE_TV.get()), 10, 5, 0.05f));
 		}
 		if (event.getType() == VillagerProfession.ARMORER) {
 			trades.get(1).add(new BasicItemListing(new ItemStack(TntextrasModItems.EMPTY_COLA_CAN.get(), 5),

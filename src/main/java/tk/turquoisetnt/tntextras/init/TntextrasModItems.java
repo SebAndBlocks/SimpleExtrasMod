@@ -17,7 +17,10 @@ import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
 
+import net.minecraft.world.level.block.Block;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.BlockItem;
 
 public class TntextrasModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, TntextrasMod.MODID);
@@ -28,4 +31,9 @@ public class TntextrasModItems {
 	public static final RegistryObject<Item> RED_BALLON = REGISTRY.register("red_ballon", () -> new RedBallonItem());
 	public static final RegistryObject<Item> RUBBER = REGISTRY.register("rubber", () -> new RubberItem());
 	public static final RegistryObject<Item> BOUNCY_BALL = REGISTRY.register("bouncy_ball", () -> new BouncyBallItem());
+	public static final RegistryObject<Item> OLD_STYLE_TV = block(TntextrasModBlocks.OLD_STYLE_TV, TntextrasModTabs.TAB_SIMPLE_EXTRAS);
+
+	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
+		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
+	}
 }

@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "tvmain",
+        "1": "leg"
+      },
+      "name": "default"
+    }
+  }
+}
