@@ -8,7 +8,7 @@
 ## Develop for SEM
 ### There are 2 ways to contribute to SEM
 ### Method 1: Use This Reposiroty in MCreator
-### Method 2 ( Resource Packs Only ): Find our Resource Packs Repository at [SEM-DEV](https://github.com/TurquoiseTNT/SEM-DEV)
+### Method 2 ( Resource Packs Only ): Find our Resource Packs Repository at [SEM-DEV](https://github.com/TurquoiseTNT/SEM-DEV/wiki)
 
 ## TurquoiseTNT
 ### TurquoiseTNT Multimedia - All rights reserved.
